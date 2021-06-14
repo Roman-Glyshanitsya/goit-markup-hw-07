@@ -20,27 +20,29 @@
   <body>
     <!-- Хедер -->
     <header class="header">
-      <div class="container">
-        <a class="link logo" href="./index.html" lang="en"> <span class="web">Web</span>Studio</a>
+      <div class="container header-container">
+        <a class="logo link" href="./index.html" lang="en">Web<span class="logo__header">Studio</span></a>
         <nav>
-          <ul class="list navigation">
-            <li class="item"><a class="link" href="./index.html">Студия</a></li>
-            <li class="item"><a class="link current" href="">Портфолио</a></li>
-            <li class="item"><a class="link" href="">Контакты</a></li>
+          <ul class="menu list">
+            <li class="menu__item"><a class="menu__link link" href="./index.html">Студия</a></li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--current link" href="">Портфолио</a>
+            </li>
+            <li class="menu__item"><a class="menu__link link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="list contacts">
-          <li class="item">
-            <a class="link" href="mailto:info@devstudio.com">
-              <svg class="icon" width="16" height="12">
+        <ul class="contacts list">
+          <li class="contacts__item">
+            <a class="contacts__link link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="link" href="tel:+380961111111">
-              <svg class="icon" width="10" height="16">
+          <li class="contacts__item">
+            <a class="contacts__link link" href="tel:+380961111111">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -234,9 +236,7 @@
     <footer class="footer">
       <div class="container footer-thumb">
         <div class="footer-contacts">
-          <a class="link logo" href="./index.html" lang="en">
-            <span class="web">Web</span><span class="logo-white">Studio</span></a
-          >
+          <a class="link logo" href="./index.html" lang="en">Web<span class="logo__footer">Studio</span></a>
           <ul class="list address">
             <li class="item">
               <a
@@ -256,29 +256,29 @@
           <h3 class="feature-title">Присоединяйтесь</h3>
 
           <ul class="list social-icons">
-            <li class="social-icons-item">
-              <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+            <li class="social-icons__item">
+              <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon">
                   <use href="./images/icons/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-icons-item">
-              <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+            <li class="social-icons__item">
+              <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon">
                   <use href="./images/icons/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-icons-item">
-              <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+            <li class="social-icons__item">
+              <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon">
                   <use href="./images/icons/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-icons-item">
-              <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+            <li class="social-icons__item">
+              <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon">
                   <use href="./images/icons/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -291,7 +291,7 @@
           <h3 class="feature-title">Подпишитесь на рассылку</h3>
           <form class="footer-form">
             <input class="footer-field" type="email" name="email" placeholder="E-mail" />
-            <button class="main-button submit-btn" type="submit">
+            <button class="button submit-btn" type="submit">
               Подписаться
               <svg class="icon" width="24" height="24">
                 <use href="./images/icons/sprite.svg#icon-send"></use>
